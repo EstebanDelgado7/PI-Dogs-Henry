@@ -1,0 +1,100 @@
+.Home {
+    background-color: lightgrey;
+
+}
+
+.Crear {
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    display: inline-block;
+    width: 13rem; 
+    left: 65%;
+    top: 10%;
+    position: absolute;
+}
+
+.Crear:hover {
+    box-shadow: inset -340px 0 0 0 white;
+    color: black;
+}
+
+.Title {
+    background-color: black;
+    color: beige;
+}
+
+.btnRecargar {
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    height: 2rem;
+    left: 65%;
+    top: 14%;
+    width: 13.4rem; 
+    position: absolute;
+}
+
+.btnRecargar:hover {
+    box-shadow: inset -340px 0 0 0 white;
+    color: black;
+}
+
+
+.Option {
+    background-color: white;
+    color: black;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    display: inline-block;
+    width: 10rem;
+    position: absolute;
+    left: 17%;
+}
+
+.Seleccion {
+    color: white;
+    background-color: rgb(24, 24, 24);
+      display: inline-block;
+      font-size: 14px;
+      font-weight: bold;
+      padding: .4em 1.4em .3em .8em;
+      width: 180px;
+
+      position: relative;
+      left: -19.3%;
+      border-radius: 0.3rem;
+}
+
+.Card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    box-shadow: -1px -1px 6px 0 rgb(0, 0, 0), 4px 4px 16px 2px rgb(37, 38, 39);
+}
+
+.Margen {
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 350px;
+    height: 520px;
+    margin: 1%;
+    background-image: url("../Imagenes/Huellas.jpg");
+}
+
+.Margen:hover {
+    transform: scale(1.1);
+    box-shadow: -1px -1px 6px 0 rgb(0, 0, 0), 4px 4px 16px 2px rgb(37, 38, 39);
+}
+
+.Link {
+    text-decoration: none;
+    color: black;
+    text-decoration-color: blue;
+}

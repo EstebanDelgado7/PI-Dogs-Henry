@@ -1,0 +1,70 @@
+.Form {
+    border: solid 1px black;
+    color: white;
+	width:500px;
+    height: 700px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://www.1zoom.me/big2/228/316991-alexfas01.jpg');
+}
+
+.Form input {
+    border-radius: 10px;
+}
+
+.Alerta {
+    font-size:small;
+}
+
+.Img {
+    width:150px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+.btn {
+    color: rgb(29, 29, 29);
+    background: white;
+    width: 80px;
+    transition: all ease 1s;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 12px;
+    padding: 0.5rem;
+    position: absolute;
+    left: 59%;
+    top: 74%;
+}
+
+.btn:hover {
+    box-shadow: inset -340px 0 0 0 black;
+    color: white;
+}
+
+.btn2 {
+    color: rgb(29, 29, 29);
+    background: white;
+    width: 110px;
+    transition: all ease 1s;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 13px;
+    padding: 0.5rem;
+    position: absolute;
+    left: 37%;
+    top: 74%;
+}
+
+.btn2:hover {
+    box-shadow: inset -340px 0 0 0 black;
+    color: white;
+}
+
+::placeholder {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
